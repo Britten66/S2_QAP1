@@ -2,54 +2,71 @@
 
 
 body{
-    margin: 20px;
-    padding: 0;
+    margin-top: 20px;
+   background-image: url('images/bckgrnd.png'), url('images/bkgrnd2.png');
+   background-position: top, bottom;
+   background-repeat: no-repeat, no-repeat;
+   background-size: cover, auto;
     font-family: 'Courier New', Courier, monospace;
     background-color: aqua;
 }
 
-.head{
+
+head{
     max-width: 100%;
-    margin: 80px auto 16px;
-    margin-bottom: 10px;
+    border-radius: 15px;
     padding: 20px;;
     justify-content: center;
     background-color: peachpuff;
     box-shadow: 0 4px 10px black;
-    
     text-align: center;
-
 }
+
+.head{
+    height: 50px;
+    max-width: 100%;
+    border-radius: 15px;
+    margin-bottom: 280px;
+    padding: 20px;;
+    justify-content: center;
+    background-color: peachpuff;
+    box-shadow: 0 4px 10px black;
+    text-align: center;
+}
+
 nav{
     background-color: peachpuff;
+    border-radius: 15px;
+    color: black;
     box-shadow: 0 4px 15px black;
-    max-width: 100%;
-    margin: 80px auto 16px;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    
+    margin-top: 0px;
+    margin-bottom: 50px;
     position: sticky;
     justify-content: center;
 }
-.nav{
-    margin: 80px auto 16px;
-}
+
+
 
 nav ul{
     list-style: none;
-    margin: 20px;
     border-radius: 15px;
     padding: 0;
     justify-content: center;
     text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
 }
 
+
 nav ul li a {
-    color: wheat;
+    color: black;
     text-decoration: none;
     border-radius: 15px;
-    padding: 20px 18px;
+    padding: 15px 5px;
     display: block;
     transition: background 0.5s, color 0.3s;
+    
 } 
 nav ul li a:hover{
     background:peru;
@@ -59,20 +76,38 @@ nav ul li a:hover{
 
 param{
     margin: 80px auto}
+
 .param{
     max-width: 100%;
     height: 1000px;
-    margin: 80px auto 16px;
+    margin: 50px auto 16px;
     margin-bottom: 20px;
+     border-radius: 15px;
     justify-content: center;
     background-color: peachpuff;
     box-shadow: 0 4px 10px black;
-    align-items: center;
     color: black;;
+} 
+.gridlayout{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:10px
+    
+}
+.griditem{
+    background-color: peru;
+    border: 1px solid black;
+}
+img{
+   width: 400px;
+   height: 400px;
 }
 .box{
-   max-width: 100%;
-    margin: 80px auto 16px;
+    border-radius: 15px;
+    height: 50px;
+    max-width: 100%;
+    margin: 20px auto 16px;
     margin-bottom: 20px;
     justify-content: center;
     background-color: peachpuff;
