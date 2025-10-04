@@ -40,7 +40,8 @@ nav{
 
 
 
-nav ul{
+nav ul
+{
     list-style: none;
     border-radius: 15px;
     padding: 0;
@@ -58,8 +59,8 @@ nav ul li a {
     padding: 15px 5px;
     display: block;
     transition: background 0.5s, color 0.3s;
-    
 } 
+
 nav ul li a:hover{
     background:peru;
     color: black;
@@ -80,6 +81,7 @@ param{
     box-shadow: 0 4px 10px black;
     color: black;;
 } 
+
 .gridlayout{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -95,7 +97,8 @@ param{
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-   
+    overflow: hidden;
+    
 }
 
 .slider{
@@ -104,13 +107,14 @@ param{
     margin: auto;
     overflow: hidden;
 }
+
 .slider img{
-    width: 100%;
+    
     display: none;
 }
 
  img.displaySlide{
-    display: block; 
+    display: block;
 }
 
 .price{
@@ -118,6 +122,7 @@ param{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
+
 .features{
     font-size: 25px;
     text-align: center;
@@ -128,7 +133,8 @@ img{
    width: 400px;
    height: 400px;
 }
-.box{
+.box
+{
     border-radius: 15px;
     height: 50px;
     max-width: 100%;
