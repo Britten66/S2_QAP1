@@ -1,94 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chris's Inventory</title>
-     <link rel="stylesheet" href="style copy.css">
-     
-</head>
-<body>
-     <div class="head">
-         <h1> Our Selection </h1>
-        </div>
-   <nav>
-         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Inventory.html">New Inventory</a></li>
-            <li><a href="usedinv.html">Used Inventory</a></li>
-            <li><a href="fincalc.html">Finance Calculator</a></li>
-            <li><a href="contactpg.html">Contact Us</a></li>
-            </ul>
+    <link rel="stylesheet" href="style copy.css" />
+  </head>
+  <body>
+    <div class="head">
+      <h1>Our Selection</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Inventory.html">New Inventory</a></li>
+        <li><a href="usedinv.html">Used Inventory</a></li>
+        <li><a href="fincalc.html">Finance Calculator</a></li>
+        <li><a href="contactpg.html">Contact Us</a></li>
+      </ul>
     </nav>
 
+    <div class="gridlayout">
+      <div class="griditem">
+        <p class="Model">Lunar Sonnit 4x4</p>
+        <p class="price">$27,950.00</p>
+        <p class="features">
+          The 2025 Lunar Sonnit 4x4 offers a commendable balance of off road
+          capability and everyday usability. Its rugged design, coupled with
+          practical features and robust performance, makes it a strong contender
+          for those seeking adventure without compromising on comfort and
+          technology. While it excels in areas like performance and style, its
+          fuel efficiency and tech features leave room for improvement,
+          resulting in an overall solid rating
+        </p>
 
-
-
-
-
-
-
-
-
-
-
-    
-        <div class="gridlayout">
-
-        <div class="griditem">
-            <p class="Model">Lunar Sonnit 4x4 </p>
-            <p class="price">$27,950.00 </p>
-            <p class="features">The 2025 Lunar Sonnit 4x4 offers a commendable balance of off road capability and everyday usability. Its rugged design, coupled with practical features and robust performance, makes it a strong contender for those seeking adventure without compromising on comfort and technology. While it excels in areas like performance and style, its fuel efficiency and tech features leave room for improvement, resulting in an overall solid rating</p>
-       
-        <div class="slider">
-            <div class="slides">
-            <img class="slide" src="images/greycar.png" alt="greycar">
-            <img class="slide" src="images/oragecar.png" alt="orngcar">
-            <img class="slide" src="images/bluesuv.png" alt="bluesuv">
-            </div>
-            <button class="prev" onclick="prevSlide(this)">&#10094;</button>
-            <button class="next" onclick="nextSlide(this)">&#10095;</button>
-            </div>
-            </div>
-            
-        <div class="griditem">
-               <p class="Model"> Velo Micro Hatch </p>
-            <p class="price"> $21,500.00 </p>
-            <p class="features"> The stylish and street-savvy 2025 Velo Micro compact hatchback is ready for its close-up. With a roomy interior and plenty of versatile cargo space, take whoever or whatever you want along for the ride. Plus, the tight turning radius makes narrow city streets seem wider and parking anywhere a breeze. </p>
-
-
-        <div class="slider">
-            <div class="slides">
-            <img class="slide" src="images/blkcar2.png" alt="blkcar">
-            <img class="slide" src="images/redcarbg.png" alt="redcar">
-            <img class="slide" src="images/bluecr.png" alt="bluecar">
-             </div>
-            <button class="prev" onclick="prevSlide(this)">&#10094;</button>
-            <button class="next" onclick="nextSlide(this)">&#10095;</button>
+        <div class="slider" id="slider1">
+          <div class="slides">
+            <img class="slide" src="images/greycar.png" alt="greycar" />
+            <img class="slide" src="images/oragecar.png" alt="orngcar" />
+            <img class="slide" src="images/bluesuv.png" alt="bluesuv" />
+          </div>
+          <button onclick="prevSlide()">&#10094;</button>
+          <button onclick="nextSlide()">&#10095;</button>
         </div>
+      </div>
+
+      <div class="griditem">
+        <p class="Model">Velo Micro Hatch</p>
+        <p class="price">$21,500.00</p>
+        <p class="features">
+          The stylish and street-savvy 2025 Velo Micro compact hatchback is
+          ready for its close-up. With a roomy interior and plenty of versatile
+          cargo space, take whoever or whatever you want along for the ride.
+          Plus, the tight turning radius makes narrow city streets seem wider
+          and parking anywhere a breeze.
+        </p>
+
+        <div class="slider" id="slider2">
+          <div class="slides2">
+            <img class="slide" src="images/blkcar2.png" alt="blkcar" />
+            <img class="slide" src="images/redcarbg.png" alt="redcar" />
+            <img class="slide" src="images/bluecr.png" alt="bluecar" />
+          </div>
+          <button onclick="prevSlide2()">&#10094;</button>
+          <button onclick="nextSlide2()">&#10095;</button>
         </div>
+      </div>
 
-        <div class="griditem">
-               <p class="Model"> Terra Pickup 7000 </p>
-            <p class="price"> $32,999.00 </p>
-            <p class="features"> Discover the Terra Pickup, the Sport Adventure Vehicle that was designed to open a new world of possibilities that meet your needs in one bold package. By combining SUV style with open-bed versatility, you can enjoy a multitude of benefits all at once without compromise. Roominess with manoeuverability, check. Towing capability and fuel efficiency, check. Open bed cargo space and secured lockable storage, check. </p>
+      <div class="griditem">
+        <p class="Model">Terra Pickup 7000</p>
+        <p class="price">$32,999.00</p>
+        <p class="features">
+          Discover the Terra Pickup, the Sport Adventure Vehicle that was
+          designed to open a new world of possibilities that meet your needs in
+          one bold package. By combining SUV style with open-bed versatility,
+          you can enjoy a multitude of benefits all at once without compromise.
+          Roominess with manoeuverability, check. Towing capability and fuel
+          efficiency, check. Open bed cargo space and secured lockable storage,
+          check.
+        </p>
 
-            <img class="slide" src="images/blueturck.png" alt="bluetruck">
-            <img class="slide" src="images/truckremovebg-preview.png" alt="orngtrk">
-            <img class="slide" src="images/grntrk.png" alt="grntruck">
-        </div>
+        <img class="slide" src="images/blueturck.png" alt="bluetruck" />
+        <img
+          class="slide"
+          src="images/truckremovebg-preview.png"
+          alt="orngtrk"
+        />
+        <img class="slide" src="images/grntrk.png" alt="grntruck" />
+      </div>
 
-        <div class="griditem">
-               <p class="Model"> Aurenza AWD </p>
-            <p class="price">$26,700.00</p>
-            <p class="features"> Power House Sedan Holding 200hp with a 2.0L DOHC Turbo Engin with precision-engineered all-wheel drive. The 2025 Aurenza AWD offers an exhilarating driving experience with its lively performance, enhanced by the smooth dual-clutch transmission. It balances sporty dynamics with practical everyday usability, making it a standout choice in the sport sedan segment. Its compelling mix of performance, features, and unique styling earns it a solid 4.5 out of 5.</p>
-            
-            <img src="images/blksedan.png" alt="blksedan">
-            <img src="images/bluecar.png" alt="bluesedan">
-            <img src="images/silvcar.png" alt="silvcar">
-        </div>
+      <div class="griditem">
+        <p class="Model">Aurenza AWD</p>
+        <p class="price">$26,700.00</p>
+        <p class="features">
+          Power House Sedan Holding 200hp with a 2.0L DOHC Turbo Engin with
+          precision-engineered all-wheel drive. The 2025 Aurenza AWD offers an
+          exhilarating driving experience with its lively performance, enhanced
+          by the smooth dual-clutch transmission. It balances sporty dynamics
+          with practical everyday usability, making it a standout choice in the
+          sport sedan segment. Its compelling mix of performance, features, and
+          unique styling earns it a solid 4.5 out of 5.
+        </p>
 
+        <img src="images/blksedan.png" alt="blksedan" />
+        <img src="images/bluecar.png" alt="bluesedan" />
+        <img src="images/silvcar.png" alt="silvcar" />
+      </div>
     </div>
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
