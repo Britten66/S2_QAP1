@@ -3,19 +3,18 @@
 body {
   margin-top: 20px;
   background-image: url("images/bckgrnd.png"), url("images/bkgrnd2.png");
-  background-position: top center, bottom center;
-  background-repeat: no-repeat, repeat-y;
+  background-position: top center, bottom;
+  background-repeat: no-repeat;
   background-size: 100% auto, 100% auto;
-  font-family: "Courier New", Courier, monospace;
-  background-color: aqua;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: black;
 }
 
 .head {
   height: 50px;
   max-width: 100%;
   border-radius: 15px;
-  margin-bottom: 280px;
-  padding: 20px;
+  margin-bottom: 680px;
   justify-content: center;
   background-color: peachpuff;
   box-shadow: 0 4px 10px black;
@@ -23,13 +22,10 @@ body {
 }
 
 nav {
-  background-color: peachpuff;
+  background-color: rgb(255, 218, 185);
   border-radius: 15px;
   color: black;
   box-shadow: 0 4px 15px black;
-
-  margin-top: 0px;
-  margin-bottom: 50px;
   position: sticky;
   justify-content: center;
 }
@@ -53,15 +49,25 @@ nav ul li a {
   transition: background 0.5s, color 0.3s;
 }
 nav ul li a:hover {
-  background: peru;
+  background: rgb(205, 134, 63);
   color: black;
   box-shadow: 0 4px 20px black;
 }
 
+/* .ul {
+  margin-top: 35px;
+  list-style-type: disc;
+  margin: 20px;
+}
+li {
+  margin-top: 35px;
+  text-align: left;
+} */
+
 .param {
   max-width: 100%;
-  height: 2000px;
-  margin: 50px auto 16px;
+  height: 100%;
+  margin: 20px auto 16px;
   position: relative;
   overflow: hidden;
   border-radius: 15px;
@@ -82,37 +88,41 @@ nav ul li a:hover {
   position: relative;
   z-index: 2;
 }
+
 .gridlayout {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 100px;
 }
+
 .griditem {
-  background-color: peachpuff;
+  background-color: rgba(255, 218, 185, 0.538);
   position: relative;
   border: 5px solid black;
-  border-radius: 15px;
-  font-size: 50px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 25px;
+  font-size: 40px;
   text-align: center;
   overflow: hidden;
 }
+
 img {
-  height: 300px;
-  width: 800px;
-  border-radius: 15px;
+  position: sticky;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 25px;
+  box-shadow: 8px 7px black;
 }
 
 .box {
   border-radius: 15px;
-  height: 50px;
+  height: 80px;
   max-width: 100%;
   display: flex;
-  margin: 20px auto 16px;
+  margin: 100px auto 16px;
   margin-bottom: 20px;
   justify-content: center;
-  background-color: peachpuff;
+  background-color: rgba(255, 218, 185, 0.573);
   box-shadow: 0 4px 10px black;
   align-items: center;
 }

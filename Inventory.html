@@ -14,7 +14,7 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="Inventory.html">New Inventory</a></li>
-        <li><a href="usedinv.html">Used Inventory</a></li>
+        <li><a href="usedinventory.html">Used Inventory</a></li>
         <li><a href="fincalc.html">Finance Calculator</a></li>
         <li><a href="contactpg.html">Contact Us</a></li>
       </ul>
@@ -80,14 +80,22 @@
           check.
         </p>
 
-        <img class="slide" src="images/blueturck.png" alt="bluetruck" />
-        <img
-          class="slide"
-          src="images/truckremovebg-preview.png"
-          alt="orngtrk"
-        />
-        <img class="slide" src="images/grntrk.png" alt="grntruck" />
+        <div class="slider" id="slider2">
+          <div class="slides3">
+            <img class="slide" src="images/blueturck.png" alt="bluetruck" />
+            <img
+              class="slide"
+              src="images/truckremovebg-preview.png"
+              alt="orngtrk"
+            />
+            <img class="slide" src="images/grntrk.png" alt="grntruck" />
+          </div>
+          <button onclick="prevSlide3()">&#10094;</button>
+          <button onclick="nextSlide3()">&#10095;</button>
+        </div>
       </div>
+
+
 
       <div class="griditem">
         <p class="Model">Aurenza AWD</p>
@@ -102,9 +110,21 @@
           unique styling earns it a solid 4.5 out of 5.
         </p>
 
-        <img src="images/blksedan.png" alt="blksedan" />
-        <img src="images/bluecar.png" alt="bluesedan" />
-        <img src="images/silvcar.png" alt="silvcar" />
+
+
+
+          <div class="slider" id="slider4">
+          <div class="slides4">
+            <img class="slide"  src="images/silvcar.png" alt="silvcar" />
+            <img class="slide"  src="images/bluecar.png" alt="bluesedan"/>
+            <img class="slide"  src ="images/blksedan.png" alt="blksedan"/>
+          </div>
+          <button onclick="prevSlide4()">&#10094;</button>
+          <button onclick="nextSlide4()">&#10095;</button>
+        </div>
+      </div>
+
+       
       </div>
     </div>
     <script src="script.js"></script>
