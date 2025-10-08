@@ -6,7 +6,7 @@ body {
   background-position: top center, bottom center;
   background-repeat: no-repeat, repeat-y;
   background-size: 100% auto, 100% auto;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: aqua;
 }
 
@@ -57,7 +57,7 @@ nav ul li a:hover {
 
 .param {
   max-width: 100%;
-  height:100%;
+  height: 100%;
   margin: 50px auto 16px;
   border-radius: 15px;
   justify-content: center;
@@ -144,8 +144,8 @@ img.displaySlide {
 }
 
 img {
-  width: 500px;
-  height: 400px;
+  width: 700px;
+  height: 700px;
 }
 
 .box {
